@@ -308,6 +308,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    flex-direction: column;
 }
 
 .contact-item {
