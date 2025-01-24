@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio profesional de Jaime Muñiz García, desarrollador web y CEO de LabDigital. Servicios de desarrollo, hosting, seguridad y diseño web.">
+    <meta name="keywords" content="desarrollo web, diseño web, hosting, seguridad, Jaime Muñiz García, LabDigital">
+    <meta name="author" content="Jaime Muñiz García">
+    <title>LabDigital - Jaime Muñiz García | Desarrollo Web Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">LabDigital</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <div class="sidebar">
+        <div class="sidebar-close">&times;</div>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="https://i.imgur.com/5mO8k50.jpg" alt="Jaime Muñiz García Avatar">
+                    </div>
+                    <div class="hero-text">
+                        <p>¡Hola! Soy</p>
+                        <h1>Jaime Muñiz García</h1>
+                        <h2>CEO de LabDigital</h2>
+                        <p>Desarrollador apasionado de webs y aplicaciones con más de 8 años de experiencia.</p>
+                    </div>
+                </div>
+                <button class="btn"><span>Ver mi CV</span></button>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">Lo que hago</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desarrollo</h3>
+                    <p>Creo las páginas web que necesitas para tu negocio, optimizadas para dispositivos móviles y
+                        ordenadores. Trabajo para que tu web aparezca en buscadores, sea intuitiva y segura.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-server"></i>
+                    <h3>Hosting</h3>
+                    <p>Me aseguro de que tu página web funcione 24/7 sin errores y esté disponible en cualquier país. No
+                        necesitarás intervenir en su mantenimiento.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Seguridad</h3>
+                    <p>Implemento los mejores sistemas de seguridad para proteger tu página contra ataques y hackeos.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Diseño</h3>
+                    <p>Diseño páginas web atractivas y modernas, con estilos adaptados para proyectar la mejor imagen
+                        profesional posible.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">Quién soy</h2>
+            <p>¡Hola! Soy Jaime Muñiz y llevo 8 años desarrollando sitios web y apps. Me apasiona crear webs
+                personalizadas que se adapten a las necesidades de mis clientes y siempre trabajo en estrecha
+                colaboración con ellos para crear sitios únicos y atractivos. Me aseguro que cada sitio esté
+                completamente automatizado para que funcione sin interrupciones. Si estás buscando un sitio web
+                personalizado, ¡contáctame!</p>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Nueva Alegría</h3>
+                    <p>Diseñé y mantuve una página web para el restaurante Nueva Alegría. Incluye un diseño atractivo y
+                        funcionalidades personalizadas para reservas.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Neptune Shop</h3>
+                    <p>Creé y gestioné durante 2 años una plataforma que permitía a los usuarios comprar y vender
+                        artículos usando criptomonedas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contáctame</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <a href="mailto:info@labdigital.es">info@labdigital.es</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Teléfono: +34 644 69 71 45</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Disponible toda la semana. ¡Escríbeme y hablamos de tu proyecto!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LabDigital. Diseñado por Jaime Muñiz García.
+        </p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+        const sidebarClose = document.querySelector('.sidebar-close');
+        const sidebarLinks = document.querySelectorAll('.sidebar ul li a');
+
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.add('active');
+        });
+
+        sidebarClose.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+        });
+
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                sidebar.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
