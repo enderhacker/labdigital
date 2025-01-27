@@ -139,17 +139,19 @@ section {
 }
 
 .hero {
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     color: var(--color-text-secondary);
     text-align: center;
     padding: 100px 20px 60px;
+    background: url(https://i.postimg.cc/DZJRx2ML/imagen-2025-01-27-114435957.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-container {
     padding: 20px 10px;
     border: 2px dotted var(--color-text-primary);
     border-radius: 12px;
-    background-color: var(--color-bg-highlight);
+    backdrop-filter: blur(5px);
     width: fit-content;
     margin: auto;
 }
